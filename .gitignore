@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+pentest-venv/
+
+# 工具輸出（可能含靶機資訊）
+audit.log
+*.log
+
+# 大型檔案：虛擬機、映像檔、壓縮檔
+*.vmdk
+*.vdi
+*.ova
+*.iso
+*.7z
+*.zip
+
+# 封包擷取檔（體積大，可能含敏感資料）
+*.pcap
+*.pcapng
+
+# 系統檔
+Thumbs.db
+desktop.ini
+.DS_Store
